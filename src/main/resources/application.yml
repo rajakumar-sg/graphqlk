@@ -1,0 +1,4 @@
+graphql:
+  packages:
+    - "com.reinvent.graphqlk"
+    - "com.reinvent.graphqlk.context"

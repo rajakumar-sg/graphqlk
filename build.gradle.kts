@@ -10,16 +10,18 @@ plugins {
 group = "com.reinvent"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_11
+val graphQLKotlinVersion = "4.2.0"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("com.expediagroup", "graphql-kotlin-spring-server", graphQLKotlinVersion)
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
