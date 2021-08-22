@@ -1,2 +1,4 @@
 graphql:
-  packages: "com.reinvent.graphqlk.queries"
+  packages:
+    - "com.reinvent.graphqlk.model"
+    - "com.reinvent.graphqlk.queries"

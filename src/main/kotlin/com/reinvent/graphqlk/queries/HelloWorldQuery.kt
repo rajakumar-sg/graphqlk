@@ -1,4 +1,4 @@
-package com.reinvent.graphqlk
+package com.reinvent.graphqlk.queries
 
 import com.expediagroup.graphql.server.operations.Query
 import com.reinvent.graphqlk.queries.HTTPContext
